@@ -5,3 +5,5 @@
 * github repo loomine - ProgAlused
 * VSCode remote seadistamine
 * Kursuse põhifailide loomine ja testimine
+## Materjalid
+* PA käsiraamat [https://web.htk.tlu.ee/digitaru/programmeerimine/part/sissejuhatus/](https://web.htk.tlu.ee/digitaru/programmeerimine/part/sissejuhatus/)
