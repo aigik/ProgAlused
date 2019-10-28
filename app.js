@@ -2,21 +2,9 @@
 
 // for tsükkel
 // üldtsükkel
-//let arv;
-let lause;
-for(let arv = 1; arv <= 10; arv++){
-    lause = 'arv = ';
-    if(arv < 10){
-        lause = lause + ' ';
-    } 
-    lause = lause + arv;
-    if(arv % 2 == 0){
-        lause = lause + ' - paaris';
-    } else {
-        lause = lause + ' - paaritu';
+let autod = ['Kia', 'Toyota', 'Ford', 'Nissan'];
+//väljastus
+for(let i = 0; i < autod.length; i++){
+    console.log(autod[i]);
 }
-console.log(lause);
-if(arv >= 5) {
-    break; //katkestab täielikult tegevuse
-}
-}
+
