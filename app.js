@@ -14,7 +14,9 @@ for(let arv = 1; arv <= 10; arv++){
         lause = lause + ' - paaris';
     } else {
         lause = lause + ' - paaritu';
-        continue;
 }
 console.log(lause);
+if(arv >= 5) {
+    break; //katkestab täielikult tegevuse
+}
 }
