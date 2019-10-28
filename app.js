@@ -11,3 +11,13 @@ if (nimi == "Aigi"){
 if (nimi = "Aigi"){
     alert("Sinu nimi on Aigi");
 }
+
+// proovin w3schools.com JS Conditions näiteid
+
+if (hour < 18) {
+    greeting = "Tere hommikust";
+}   //else if (time < 20) {
+    //greeting = "Head päeva";
+//}   else {
+//    greeting = "Head õhtut";
+//}
