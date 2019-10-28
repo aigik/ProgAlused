@@ -1,23 +1,12 @@
-// Tingimuslause
+// Tsüklid
 
-// if
-
-if (nimi == "Aigi"){
-    print = "Sinu nimi on Aigi";
-}else {
-    print = "Sinu nimi ei ole Aigi";
+// for tsükkel
+// üldtsükkel
+//let arv;
+for(let arv = 1; arv <= 10; arv++){
+    if(arv < 10){
+        console.log('arv = ' + arv);
+    } else {
+    console.log('arv = ' + arv);
 }
-
-if (nimi = "Aigi"){
-    alert("Sinu nimi on Aigi");
 }
-
-// proovin w3schools.com JS Conditions näiteid
-
-if (hour < 18) {
-    greeting = "Tere hommikust";
-}   //else if (time < 20) {
-    //greeting = "Head päeva";
-//}   else {
-//    greeting = "Head õhtut";
-//}
