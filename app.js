@@ -1,19 +1,32 @@
-// Tsüklid
+// funktsioonid
+// nähtavus - Scope
 
-// while tsükkel
-// eelkontrolliga tsükkel
-let arv = 4; //defineerime number
-//defineerime jagaja algväärtus
-let jagaja = 2;
-//suurendame jagaja väärtus nii kaua, kui jagamise jöök on 0
-while(arv % jagaja != 0) {
-    jagaja++;
-    
+// funktsioon, mis arvutab ristküliku pindala
+// globaalne
+var a = 1;
+let b = 2;
+const c = 3;
+
+function ristkylikuPindala(pikkus, laius){
+    // arvutame pindala
+    let pindala = pikkus * laius;
+    // tagastame pindala p6hiprogrammi
+    return pindala;
 }
 
-// kontrollime, kas jagasime sama arvuga
-if(arv == jagaja){
-console.log(arv + ' on algarv');
-} else {
-    console.log(arv + ' ei ole algarv');
+// funktsioon, mis v2ljastab tulemuse ekraanile
+function valjasta(pikkus = 0, laius = 0){
+    // v2ljastame v22rtused
+    console.log('Pikkus = ' + pikkus);
+    console.log('Laius = ' + laius);
+    // salvestame arvutatud pindala
+    let pindala = ristkylikuPindala(pikkus, laius);
+    // v2ljastame tulemuse
+    console.log('Pindala = ' + pindala);
 }
+
+valjasta(15, 5);
+valjasta(1, 5);
+valjasta();
+
+console.log('Globaalne: ', a, b, c);
